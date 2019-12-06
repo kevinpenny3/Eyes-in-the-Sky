@@ -1,0 +1,62 @@
+body {
+}
+
+.nav--bar {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+main{
+    margin-top: .5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main--article {
+    flex-basis: 66%;
+}
+
+.favorites {
+    text-align: center;
+    display: flex;
+    flex-basis: 34%;
+    margin-left: 0px;
+}
+
+.favorites--list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.favorites--card {
+    text-align: center;
+    display: flex;
+    min-width: 48%;
+    border: 1px solid black;
+    margin-left: 9px;
+}
+
+.photoOfTheDaySection {
+    border: .5px solid lightgray;
+    justify-content: left;
+
+}
+
+.searchedPhotoSection {
+    margin-top: 8px;
+    border: 1px solid black;
+    height: 50%;
+}
+
+.photoOfTheDayImage img{
+    max-width: 71%;
+    height: auto;
+    position: absolute left;
+    margin-bottom: 0px;
+}
