@@ -1,9 +1,9 @@
 const PhotoOfTheDayComponent = (photos) => {
 
     return `
-        <div class="photoOfTheDayImage">
-            <img src="${photos.url}" alt="${photos.title}">
-        <div>
+        <div class="photoOfTheDayCard">
+            <img  class="photoOfTheDayImage" src="${photos.url}" alt="${photos.title}">
+        </div>
      `   
 
 }

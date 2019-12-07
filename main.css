@@ -16,13 +16,13 @@ main{
 }
 
 .main--article {
-    flex-basis: 66%;
+    flex-basis: 64%;
 }
 
 .favorites {
     text-align: center;
     display: flex;
-    flex-basis: 34%;
+    flex-basis: 33%;
     margin-left: 0px;
 }
 
@@ -39,24 +39,47 @@ main{
     display: flex;
     min-width: 48%;
     border: 1px solid black;
-    margin-left: 9px;
 }
 
 .photoOfTheDaySection {
     border: .5px solid lightgray;
     justify-content: left;
+    flex-basis: 50%;
 
 }
 
-.searchedPhotoSection {
-    margin-top: 8px;
-    border: 1px solid black;
-    height: 50%;
-}
-
-.photoOfTheDayImage img{
-    max-width: 71%;
-    height: auto;
+.photoOfTheDayImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
     position: absolute left;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
+
+.marsRoverPhotoSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.marsRoverCard {
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 4px;;
+
+}
+
+.marsRoverPhotosImage {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+
+
+
+
