@@ -1,0 +1,21 @@
+.favorites {
+    text-align: center;
+    display: flex;
+    flex-basis: 33%;
+    margin-left: 0px;
+}
+
+.favorites--list {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.favorites--card {
+    text-align: center;
+    display: flex;
+    min-width: 48%;
+    border: 1px solid black;
+}

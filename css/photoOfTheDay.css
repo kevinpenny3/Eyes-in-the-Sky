@@ -1,0 +1,14 @@
+.photoOfTheDaySection {
+    border: .5px solid lightgray;
+    justify-content: left;
+    flex-basis: 50%;
+
+}
+
+.photoOfTheDayImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute left;
+    margin-bottom: 2px;
+}

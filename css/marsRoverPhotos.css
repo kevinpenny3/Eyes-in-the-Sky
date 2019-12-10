@@ -1,0 +1,63 @@
+.marsRoverPhotoSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.marsRoverCard {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin: 6px 0px 6px 0px;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.buttonHover {
+    margin-top: 65px;
+    margin-left: 80px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.buttonHover button {
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-decoration: none;
+    border: none;
+    margin: 20px;
+}
+
+.marsRoverPhotosImage {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.highlightRoverCard {
+    opacity: .5;
+    z-index: -1;
+}
+
+.buttonHide {
+    display: none;
+}
+
+button {
+    text-align: center;
+    justify-content: center;
+    width: 180px;
+    height: 20px;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 18px 30px 0 rgba(0,0,0,0.19);
+}
+
+.hide {
+    visibility: hidden;
+}
